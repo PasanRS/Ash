@@ -855,11 +855,11 @@ mkdir -p "$VM_DIR"
 
 # Supported OS list
 declare -A OS_OPTIONS=(
-#    ["Parrot"]="https://deb.parrot.sh/parrot/iso/7.1/Parrot-home-7.1_amd64.qcow2|debian11|debian|debian"
+#
     ["Ubuntu 22.04"]="ubuntu|jammy|https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img|ubuntu22|ubuntu|ubuntu"
     ["Ubuntu 24.04"]="ubuntu|noble|https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img|ubuntu24|ubuntu|ubuntu"
-    ["Debian 11"]="debian|bullseye|https://deb.parrot.sh/parrot/iso/7.1/Parrot-home-7.1_amd64.qcow2|debian11|debian|debian"
-    ["Debian 12"]="debian|bookworm|https://deb.parrot.sh/parrot/iso/7.1/Parrot-home-7.1_amd64.qcow2|debian12|debian|debian"
+    ["Parrot 07"]="debian|bullseye|https://deb.parrot.sh/parrot/iso/7.1/Parrot-home-7.1_amd64.qcow2|debian11|debian|debian"
+    ["Parrot 07"]="debian|bookworm|https://deb.parrot.sh/parrot/iso/7.1/Parrot-home-7.1_amd64.qcow2|debian12|debian|debian"
     ["Fedora 40"]="fedora|40|https://download.fedoraproject.org/pub/fedora/linux/releases/40/Cloud/x86_64/images/Fedora-Cloud-Base-40-1.14.x86_64.qcow2|fedora40|fedora|fedora"
     ["CentOS Stream 9"]="centos|stream9|https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-latest.x86_64.qcow2|centos9|centos|centos"
     ["AlmaLinux 9"]="almalinux|9|https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/AlmaLinux-9-GenericCloud-latest.x86_64.qcow2|almalinux9|alma|alma"
